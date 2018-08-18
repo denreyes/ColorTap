@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/iv_color"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.ColorActivity" />
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/green"
+        android:visibility="gone"
+        tools:context=".activities.ColorActivity" />
+
+    <ImageView
+        android:id="@+id/iv_blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/blue"
+        android:visibility="gone"
+        tools:context=".activities.ColorActivity" />
+
+    <ImageView
+        android:id="@+id/iv_red"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/red"
+        android:visibility="gone"
+        tools:context=".activities.ColorActivity" />
+
+</FrameLayout>
